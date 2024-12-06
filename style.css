@@ -51,7 +51,7 @@ header{
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform .5s ;
+    transition: transform .5s;
 }
 
 .navigation a:hover::after {
@@ -90,6 +90,8 @@ section{
     font-size: 3em;
     font-weight: 600;
     transition: .7s ease;
+    position: relative;
+    top: 20px;
 }
 
 .main h2 span:hover {
@@ -142,7 +144,7 @@ section{
     color: red;
 }
 #githube:hover {
-    color: #f0f0f0;
+    color: #808080;
 }
 #facebook:hover {
     color: blue;
@@ -179,21 +181,25 @@ section{
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
+    border: 5px solid #fff;
     transition: .7s ease
 }
 
 .card:hover {
     transform: scale(1.1);
+    border: 5px solid #3a6cf4;
 }
 
 .icon {
     color: #3a6cf4;
     font-size: 8em;
     text-align: center;
+    transition: .7s ease;
 }
 
 .info {
     text-align: center;
+    transition: .7s ease;
 }
 
 .info h3 {
