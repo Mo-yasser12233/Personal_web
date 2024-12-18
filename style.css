@@ -92,6 +92,7 @@ section{
     transition: .7s ease;
     position: relative;
     top: 20px;
+    padding-top: 10px;
 }
 
 .main h2 span:hover {
